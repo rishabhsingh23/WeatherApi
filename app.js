@@ -22,7 +22,7 @@ app.post("/",function (req,res){
       const weatherdecription= Weatherdata.weather[0].description;
       const icon= Weatherdata.weather[0].icon;
       const imageurl= "http://openweathermap.org/img/wn/" + icon +"@2x.png";
-      res.write("<p>The weather is currently"+weatherdecription+"  in  "+query+"</p>");
+      res.write("<p>The weather is currently "+weatherdecription+"  in  "+query+"</p>");
       res.write("<h1>The temperature in " +query+ " is " + temp + "</h1>");
       res.write("<img src= " + imageurl + ">");
       res.send();
