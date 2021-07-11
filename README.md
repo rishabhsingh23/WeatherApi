@@ -11,3 +11,5 @@ Code to run: go to the directory where your app.js is and perform following step
 2.node app.js
 
 3.go to localhost 3000 on chrome
+
+4. I have also  deployed this on heroku : https://git.heroku.com/guarded-fjord-97716.git
